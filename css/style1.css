@@ -1,0 +1,282 @@
+ .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: #5E4485;
+            color: #FFF;
+            padding: 1% 0;
+            font-size: 1.2em;
+            border: 0;
+        }
+        
+        .navbar-brand {
+            float: left;
+            min-height: 55px;
+            padding: 0 15px 5px;
+        }
+        
+        .navbar-inverse .navbar-nav .active a,
+        .navbar-inverse .navbar-nav .active a:focus,
+        .navbar-inverse .navbar-nav .active a:hover {
+            color: #FFF;
+            background-color: #5E4485;
+        }
+        
+        .navbar-inverse .navbar-nav li a {
+            color: #D5D5D5;
+        }
+        
+        .carousel-caption {
+            top: 50%;
+            transform: translateY(-50%);
+            text-transform: uppercase;
+        }
+        
+        .btn {
+            font-size: 18px;
+            color: #FFF;
+            padding: 12px 22px;
+            background: #5E4485;
+            border: 2px solid #FFF;
+        }
+
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(img/bg.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.loginBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.registerBox
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 420px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+}
+h2
+{
+	margin: 0;
+	padding: 0 0 20px;
+	color: #FFF;
+	text-align: center;
+}
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.registerBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.registerBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.registerBox input[type="text"],
+.registerBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #5E4485;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.registerBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #5E4485;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background: #D5D5D5;
+	color: #262626;
+}
+.registerBox input[type="submit"]:hover
+{
+	background: #D5D5D5;
+	color: #262626;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.registerBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#icon {
+            max-width: 450px;
+            margin: 1% auto;
+        }
+
+        footer {
+            width: 100%;
+            background-color: #5E4485;
+            padding: 0%;
+            color: #FFF;
+            bottom: 0;
+            position: absolute;    
+        }
+        
+        .fa {
+            padding: 15px;
+            font-size: 30px;
+            color: #FFF;
+        }
+        
+        .fa:hover {
+            color: #D5D5D5;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 600px) {
+            .fa {
+                font-size: 20px;
+                padding: 10px;
+            }
+            .loginBox h2{
+                font-size: 23px;
+            }
+            .registerBox h2{
+                font-size: 23px;
+}
+            .loginBox
+{
+    font-size: 15px;
+	position: absolute;
+	top: 57.5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 346px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+            .registerBox
+{
+    font-size: 15px;
+	position: absolute;
+	top: 62.2%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 407px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.registerBox input[type="text"],
+.registerBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	font-size: 14px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 25px;
+	color: #fff;
+	font-size: 14px;
+}
+}
+            
