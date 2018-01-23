@@ -108,9 +108,9 @@
   align-items: center;
   justify-content: center;
 }
-#google_translate_element{
+.translate{
     color: #5E4485;
-    
+   padding: 80%;    
 }
 
 
