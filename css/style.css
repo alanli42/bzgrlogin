@@ -108,5 +108,11 @@
   align-items: center;
   justify-content: center;
 }
+#google_translate_element {
+    width: auto;
+    bottom: 0;
+    text-align: right;
+}
+
 
 
