@@ -111,7 +111,8 @@
 #google_translate_element {
     width: auto;
     bottom: 0;
-    text-align: right;
+    background: #5E4485;
+    padding-left: 50%;
 }
 
 
