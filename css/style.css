@@ -108,11 +108,9 @@
   align-items: center;
   justify-content: center;
 }
-#google_translate_element {
-    width: auto;
-    bottom: 0;
-    background: #5E4485;
-    padding-left: 50%;
+a.aria-haspopup > span {
+    color: #5E4485;
+    
 }
 
 
